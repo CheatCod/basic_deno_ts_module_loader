@@ -1,0 +1,15 @@
+[package]
+name = "basic_deno_ts_module_loader"
+version = "0.1.0"
+edition = "2021"
+authors = ["Peter Jiang"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = "0.11.18"
+anyhow = "1.0.72"
+deno_ast = { version = "0.27.3", features = ["transpiling"] }
+deno_core = "0.195.0"
+deno_runtime = "0.120.0"
+tokio = { version = "1.29.1", features = ["fs"] }
