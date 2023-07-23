@@ -1,6 +1,6 @@
 [package]
 name = "basic_deno_ts_module_loader"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Peter Jiang"]
 description = "A basic Deno TypeScript module loader"
