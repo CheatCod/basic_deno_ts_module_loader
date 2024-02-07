@@ -24,6 +24,12 @@ impl Default for TypescriptModuleLoader {
     }
 }
 
+impl TypescriptModuleLoader {
+    pub fn new(http: reqwest::Client) -> Self {
+        Self { http }
+    }
+}
+
 impl ModuleLoader for TypescriptModuleLoader {
     fn resolve(
         &self,
